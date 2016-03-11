@@ -16,7 +16,7 @@ During the following steps please replace <path> (e.g. /home/example/.tools) wit
 		- Extract the zip: `unzip bcopy-master.zip`
 		- Rename the directory: `mv bcopy-master bcopy`
 1. Make the script executable: `chmod +x bcopy/bcopy.sh`
-1. Create an alias for the script: `echo 'alias bcopy="<path>/bcopy/bcopy.sh" >> ~/.bashrc'`
+1. Create an alias for the script: `echo 'alias bcopy="<path>/bcopy/bcopy.sh"' >> ~/.bashrc`
 
 ## Usage
 - without alias: `<path>/bcopy.sh file.ext [file2.ext] [file3.ext] [...]`
