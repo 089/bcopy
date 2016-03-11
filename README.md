@@ -25,7 +25,7 @@ During the following steps please replace <path> (e.g. /home/example/.tools) wit
 ## Examples (using the alias)
 You can **bcopy** a single file
 ```
-bcopy a.txt 
+$ bcopy a.txt 
 
 copy a.txt ==> a.txt.2016-03-11-10-21-43.backup
 
@@ -33,7 +33,7 @@ copy a.txt ==> a.txt.2016-03-11-10-21-43.backup
 
 You can **bcopy** more than one file
 ```
-bcopy b.txt c.txt 
+$ bcopy b.txt c.txt 
 
 copy b.txt ==> b.txt.2016-03-11-10-22-48.backup
 copy c.txt ==> c.txt.2016-03-11-10-22-48.backup
@@ -42,7 +42,7 @@ copy c.txt ==> c.txt.2016-03-11-10-22-48.backup
 
 You can **bcopy** wildcards. 
 ```
-bcopy *.md
+$ bcopy *.md
 
 copy e.md ==> e.md.2016-03-11-10-25-36.backup
 copy f.md ==> f.md.2016-03-11-10-25-36.backup
@@ -52,7 +52,7 @@ copy g.md ==> g.md.2016-03-11-10-25-36.backup
 
 You can **bcopy** mixed statements.
 ```
-bcopy *.md a.txt *.num
+$ bcopy *.md a.txt *.num
 
 copy e.md ==> e.md.2016-03-11-10-27-28.backup
 copy f.md ==> f.md.2016-03-11-10-27-28.backup
