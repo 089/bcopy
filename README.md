@@ -13,7 +13,7 @@ During the following steps please replace <path> (e.g. /home/example/.tools) wit
 		- `git@github.com:089/bcopy.git` 
 	1. th zip file
 		- `wget https://github.com/089/bcopy/archive/master.zip`  
-		- Extract the zip: `unzip bcopy-master.zip`
+		- Extract the zip: `unzip master.zip`
 		- Rename the directory: `mv bcopy-master bcopy`
 1. Make the script executable: `chmod +x bcopy/bcopy.sh`
 1. Create an alias for the script: `echo 'alias bcopy="<path>/bcopy/bcopy.sh"' >> ~/.bashrc`
